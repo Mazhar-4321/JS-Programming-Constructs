@@ -1,3 +1,5 @@
+numberToWords(1)
+displayWeekday(9)
 function numberToWords(n){
     if(n==0){
         console.log("zero")
@@ -28,5 +30,31 @@ function numberToWords(n){
     }
     if(n==9){
         console.log("nine")
+    }
+}
+function displayWeekday(n){
+    if(n==1){
+console.log("Sunday")
+    }
+    if(n==2){
+        console.log("Monday")
+    }
+    if(n==3){
+        console.log("Tuesday")
+    }
+    if(n==4){
+        console.log("Wednesday")
+    }
+    if(n==5){
+        console.log("Thursday")
+    }
+    if(n==6){
+        console.log("Friday")
+    }
+    if(n==7){
+        console.log("Saturday")
+    }
+    if(n<1||n>7){
+        console.log("Invalid day")
     }
 }
