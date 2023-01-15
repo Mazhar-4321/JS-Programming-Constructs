@@ -1,5 +1,6 @@
 numberToWords(1)
 displayWeekday(9)
+quadraticOperationAndMinAndMax(2,3,5)
 function numberToWords(n){
     if(n==0){
         console.log("zero")
@@ -31,6 +32,14 @@ function numberToWords(n){
     if(n==9){
         console.log("nine")
     }
+}
+function quadraticOperationAndMinAndMax(a,b,c){
+    let val1=a+b*c
+  let val2=   c+a/b;
+  let val3=   a%b+c;
+   let val4=  a*b+c;
+   console.log( Math.max(val4, Math.max(val3, Math.max(val1, val2))))
+   console.log( Math.min(val4, Math.min(val3, Math.min(val1, val2))))
 }
 function displayWeekday(n){
     if(n==1){
