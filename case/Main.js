@@ -32,3 +32,6 @@ function monthNameOfANumber( n){
         default:return "Invalid Number";
     }
 }
+function getCalendar(){
+    return new Date();
+}
